@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="34.468">
-<testcase classname="Purchase the order from Ecommerce Website" name="Positive Test of Submitting the order" time="33.975">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.765">
+<testcase classname="Purchase the order from Ecommerce Website" name="Positive Test of Submitting the order" time="19.418">
 <system-out><![CDATA[Given I landed on Ecommerce Page............................................passed
 Given Logged in with username sayanmanna@gmail.com and password Sayan@123...passed
 When I add product ZARA COAT 3 to Cart......................................passed
