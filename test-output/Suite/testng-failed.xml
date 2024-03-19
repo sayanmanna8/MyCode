@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="rahulshettybreakdown.stepdefinations.SubmitOrderTest">
+        <methods>
+          <include name="LaunchApplication"/>
+          <include name="SubmitOrder"/>
+          <include name="ValidateOrder"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- rahulshettybreakdown.stepdefinations.SubmitOrderTest -->
+      <class name="rahulshettybreakdown.stepdefinations.ErrorValidationTest">
+        <methods>
+          <include name="LaunchApplication"/>
+          <include name="ErrorValidationLogin"/>
+          <include name="tearDown"/>
+          <include name="SubmitOrder"/>
+        </methods>
+      </class> <!-- rahulshettybreakdown.stepdefinations.ErrorValidationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

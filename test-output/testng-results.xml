@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36257" started-at="2024-03-19T17:27:21Z" finished-at="2024-03-19T17:27:57Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:rahulshettybreakdown.testrunner.TestRunner@4d9e68d0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="36257" started-at="2024-03-19T17:27:21Z" finished-at="2024-03-19T17:27:57Z">
+      <class name="rahulshettybreakdown.testrunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:rahulshettybreakdown.testrunner.TestRunner@4d9e68d0]" name="setUpClass" is-config="true" duration-ms="1527" started-at="2024-03-19T17:27:21Z" finished-at="2024-03-19T17:27:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5562c2c9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:rahulshettybreakdown.testrunner.TestRunner@4d9e68d0]" name="runScenario" duration-ms="34262" started-at="2024-03-19T17:27:23Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-19T17:27:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive Test of Submitting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from Ecommerce Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:rahulshettybreakdown.testrunner.TestRunner@4d9e68d0]" name="tearDownClass" is-config="true" duration-ms="419" started-at="2024-03-19T17:27:57Z" finished-at="2024-03-19T17:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- rahulshettybreakdown.testrunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
